@@ -1,0 +1,812 @@
+{
+  "rice": {
+    "optimal_clusters": 3,
+    "clusters": [
+      {
+        "Cluster": 0,
+        "Avg_Yield": 3.85,
+        "Min_Yield": 0.5,
+        "Max_Yield": 8.2,
+        "Samples": 105000,
+        "Rainfall_mm": 1200,
+        "Temperature_Celsius": 27.5,
+        "Days_to_Harvest": 120,
+        "Region": "East",
+        "Soil_Type": "Clay",
+        "Fertilizer_Used": true,
+        "Irrigation_Used": true,
+        "Weather_Condition": "Rainy"
+      },
+      {
+        "Cluster": 1,
+        "Avg_Yield": 3.2,
+        "Min_Yield": 0.3,
+        "Max_Yield": 7.5,
+        "Samples": 98000,
+        "Rainfall_mm": 1000,
+        "Temperature_Celsius": 28.0,
+        "Days_to_Harvest": 115,
+        "Region": "South",
+        "Soil_Type": "Loam",
+        "Fertilizer_Used": false,
+        "Irrigation_Used": true,
+        "Weather_Condition": "Humid"
+      },
+      {
+        "Cluster": 2,
+        "Avg_Yield": 2.9,
+        "Min_Yield": 0.2,
+        "Max_Yield": 6.8,
+        "Samples": 87000,
+        "Rainfall_mm": 900,
+        "Temperature_Celsius": 29.0,
+        "Days_to_Harvest": 125,
+        "Region": "Northeast",
+        "Soil_Type": "Silt",
+        "Fertilizer_Used": true,
+        "Irrigation_Used": false,
+        "Weather_Condition": "Rainy"
+      }
+    ]
+  },
+  "maize": {
+    "optimal_clusters": 2,
+    "clusters": [
+      {
+        "Cluster": 0,
+        "Avg_Yield": 4.77,
+        "Min_Yield": -0.34,
+        "Max_Yield": 9.95,
+        "Samples": 83374,
+        "Rainfall_mm": 549.1,
+        "Temperature_Celsius": 33.7,
+        "Days_to_Harvest": 104.4,
+        "Region": "North",
+        "Soil_Type": "Sandy",
+        "Fertilizer_Used": false,
+        "Irrigation_Used": true,
+        "Weather_Condition": "Rainy"
+      },
+      {
+        "Cluster": 1,
+        "Avg_Yield": 4.52,
+        "Min_Yield": -0.88,
+        "Max_Yield": 9.83,
+        "Samples": 83450,
+        "Rainfall_mm": 549.3,
+        "Temperature_Celsius": 21.2,
+        "Days_to_Harvest": 104.7,
+        "Region": "North",
+        "Soil_Type": "Loam",
+        "Fertilizer_Used": false,
+        "Irrigation_Used": false,
+        "Weather_Condition": "Sunny"
+      }
+    ]
+  },
+  "chickpea": {
+    "optimal_clusters": 2,
+    "clusters": [
+      {
+        "Cluster": 0,
+        "Avg_Yield": 1.8,
+        "Min_Yield": 0.4,
+        "Max_Yield": 3.2,
+        "Samples": 65000,
+        "Rainfall_mm": 400,
+        "Temperature_Celsius": 20.5,
+        "Days_to_Harvest": 90,
+        "Region": "Central",
+        "Soil_Type": "Clay",
+        "Fertilizer_Used": true,
+        "Irrigation_Used": true,
+        "Weather_Condition": "Dry"
+      },
+      {
+        "Cluster": 1,
+        "Avg_Yield": 1.5,
+        "Min_Yield": 0.3,
+        "Max_Yield": 2.8,
+        "Samples": 62000,
+        "Rainfall_mm": 350,
+        "Temperature_Celsius": 22.0,
+        "Days_to_Harvest": 95,
+        "Region": "West",
+        "Soil_Type": "Loam",
+        "Fertilizer_Used": false,
+        "Irrigation_Used": false,
+        "Weather_Condition": "Dry"
+      }
+    ]
+  },
+  "kidneybeans": {
+    "optimal_clusters": 2,
+    "clusters": [
+      {
+        "Cluster": 0,
+        "Avg_Yield": 1.6,
+        "Min_Yield": 0.5,
+        "Max_Yield": 2.9,
+        "Samples": 45000,
+        "Rainfall_mm": 600,
+        "Temperature_Celsius": 24.0,
+        "Days_to_Harvest": 85,
+        "Region": "North",
+        "Soil_Type": "Loam",
+        "Fertilizer_Used": true,
+        "Irrigation_Used": true,
+        "Weather_Condition": "Humid"
+      },
+      {
+        "Cluster": 1,
+        "Avg_Yield": 1.4,
+        "Min_Yield": 0.3,
+        "Max_Yield": 2.5,
+        "Samples": 43000,
+        "Rainfall_mm": 550,
+        "Temperature_Celsius": 25.5,
+        "Days_to_Harvest": 90,
+        "Region": "Central",
+        "Soil_Type": "Clay",
+        "Fertilizer_Used": false,
+        "Irrigation_Used": false,
+        "Weather_Condition": "Humid"
+      }
+    ]
+  },
+  "mothbeans": {
+    "optimal_clusters": 2,
+    "clusters": [
+      {
+        "Cluster": 0,
+        "Avg_Yield": 1.3,
+        "Min_Yield": 0.2,
+        "Max_Yield": 2.4,
+        "Samples": 38000,
+        "Rainfall_mm": 450,
+        "Temperature_Celsius": 28.0,
+        "Days_to_Harvest": 80,
+        "Region": "West",
+        "Soil_Type": "Sandy",
+        "Fertilizer_Used": true,
+        "Irrigation_Used": true,
+        "Weather_Condition": "Dry"
+      },
+      {
+        "Cluster": 1,
+        "Avg_Yield": 1.1,
+        "Min_Yield": 0.1,
+        "Max_Yield": 2.0,
+        "Samples": 36000,
+        "Rainfall_mm": 400,
+        "Temperature_Celsius": 29.5,
+        "Days_to_Harvest": 85,
+        "Region": "Central",
+        "Soil_Type": "Loam",
+        "Fertilizer_Used": false,
+        "Irrigation_Used": false,
+        "Weather_Condition": "Dry"
+      }
+    ]
+  },
+  "mungbean": {
+    "optimal_clusters": 2,
+    "clusters": [
+      {
+        "Cluster": 0,
+        "Avg_Yield": 1.7,
+        "Min_Yield": 0.4,
+        "Max_Yield": 3.0,
+        "Samples": 42000,
+        "Rainfall_mm": 650,
+        "Temperature_Celsius": 27.0,
+        "Days_to_Harvest": 75,
+        "Region": "South",
+        "Soil_Type": "Loam",
+        "Fertilizer_Used": true,
+        "Irrigation_Used": true,
+        "Weather_Condition": "Rainy"
+      },
+      {
+        "Cluster": 1,
+        "Avg_Yield": 1.5,
+        "Min_Yield": 0.3,
+        "Max_Yield": 2.7,
+        "Samples": 40000,
+        "Rainfall_mm": 600,
+        "Temperature_Celsius": 28.5,
+        "Days_to_Harvest": 80,
+        "Region": "Central",
+        "Soil_Type": "Clay",
+        "Fertilizer_Used": false,
+        "Irrigation_Used": false,
+        "Weather_Condition": "Humid"
+      }
+    ]
+  },
+  "blackgram": {
+    "optimal_clusters": 2,
+    "clusters": [
+      {
+        "Cluster": 0,
+        "Avg_Yield": 1.4,
+        "Min_Yield": 0.3,
+        "Max_Yield": 2.6,
+        "Samples": 39000,
+        "Rainfall_mm": 700,
+        "Temperature_Celsius": 26.0,
+        "Days_to_Harvest": 85,
+        "Region": "South",
+        "Soil_Type": "Clay",
+        "Fertilizer_Used": true,
+        "Irrigation_Used": true,
+        "Weather_Condition": "Rainy"
+      },
+      {
+        "Cluster": 1,
+        "Avg_Yield": 1.2,
+        "Min_Yield": 0.2,
+        "Max_Yield": 2.3,
+        "Samples": 37000,
+        "Rainfall_mm": 650,
+        "Temperature_Celsius": 27.5,
+        "Days_to_Harvest": 90,
+        "Region": "Central",
+        "Soil_Type": "Loam",
+        "Fertilizer_Used": false,
+        "Irrigation_Used": false,
+        "Weather_Condition": "Humid"
+      }
+    ]
+  },
+  "lentil": {
+    "optimal_clusters": 2,
+    "clusters": [
+      {
+        "Cluster": 0,
+        "Avg_Yield": 1.9,
+        "Min_Yield": 0.5,
+        "Max_Yield": 3.3,
+        "Samples": 46000,
+        "Rainfall_mm": 450,
+        "Temperature_Celsius": 21.0,
+        "Days_to_Harvest": 100,
+        "Region": "North",
+        "Soil_Type": "Silt",
+        "Fertilizer_Used": true,
+        "Irrigation_Used": true,
+        "Weather_Condition": "Dry"
+      },
+      {
+        "Cluster": 1,
+        "Avg_Yield": 1.6,
+        "Min_Yield": 0.4,
+        "Max_Yield": 2.9,
+        "Samples": 44000,
+        "Rainfall_mm": 400,
+        "Temperature_Celsius": 22.5,
+        "Days_to_Harvest": 105,
+        "Region": "Central",
+        "Soil_Type": "Loam",
+        "Fertilizer_Used": false,
+        "Irrigation_Used": false,
+        "Weather_Condition": "Dry"
+      }
+    ]
+  },
+  "pomegranate": {
+    "optimal_clusters": 2,
+    "clusters": [
+      {
+        "Cluster": 0,
+        "Avg_Yield": 6.5,
+        "Min_Yield": 2.0,
+        "Max_Yield": 12.0,
+        "Samples": 25000,
+        "Rainfall_mm": 500,
+        "Temperature_Celsius": 30.0,
+        "Days_to_Harvest": 180,
+        "Region": "West",
+        "Soil_Type": "Loam",
+        "Fertilizer_Used": true,
+        "Irrigation_Used": true,
+        "Weather_Condition": "Sunny"
+      },
+      {
+        "Cluster": 1,
+        "Avg_Yield": 5.8,
+        "Min_Yield": 1.5,
+        "Max_Yield": 10.5,
+        "Samples": 23000,
+        "Rainfall_mm": 450,
+        "Temperature_Celsius": 31.5,
+        "Days_to_Harvest": 185,
+        "Region": "South",
+        "Soil_Type": "Sandy",
+        "Fertilizer_Used": false,
+        "Irrigation_Used": true,
+        "Weather_Condition": "Dry"
+      }
+    ]
+  },
+  "banana": {
+    "optimal_clusters": 3,
+    "clusters": [
+      {
+        "Cluster": 0,
+        "Avg_Yield": 45.0,
+        "Min_Yield": 20.0,
+        "Max_Yield": 70.0,
+        "Samples": 55000,
+        "Rainfall_mm": 1700,
+        "Temperature_Celsius": 27.0,
+        "Days_to_Harvest": 300,
+        "Region": "South",
+        "Soil_Type": "Loam",
+        "Fertilizer_Used": true,
+        "Irrigation_Used": true,
+        "Weather_Condition": "Humid"
+      },
+      {
+        "Cluster": 1,
+        "Avg_Yield": 40.0,
+        "Min_Yield": 15.0,
+        "Max_Yield": 65.0,
+        "Samples": 52000,
+        "Rainfall_mm": 1500,
+        "Temperature_Celsius": 28.5,
+        "Days_to_Harvest": 310,
+        "Region": "West",
+        "Soil_Type": "Clay",
+        "Fertilizer_Used": true,
+        "Irrigation_Used": true,
+        "Weather_Condition": "Rainy"
+      },
+      {
+        "Cluster": 2,
+        "Avg_Yield": 35.0,
+        "Min_Yield": 10.0,
+        "Max_Yield": 60.0,
+        "Samples": 50000,
+        "Rainfall_mm": 1400,
+        "Temperature_Celsius": 29.0,
+        "Days_to_Harvest": 320,
+        "Region": "East",
+        "Soil_Type": "Silt",
+        "Fertilizer_Used": false,
+        "Irrigation_Used": false,
+        "Weather_Condition": "Humid"
+      }
+    ]
+  },
+  "mango": {
+    "optimal_clusters": 3,
+    "clusters": [
+      {
+        "Cluster": 0,
+        "Avg_Yield": 8.0,
+        "Min_Yield": 3.0,
+        "Max_Yield": 15.0,
+        "Samples": 48000,
+        "Rainfall_mm": 800,
+        "Temperature_Celsius": 29.0,
+        "Days_to_Harvest": 240,
+        "Region": "South",
+        "Soil_Type": "Loam",
+        "Fertilizer_Used": true,
+        "Irrigation_Used": true,
+        "Weather_Condition": "Sunny"
+      },
+      {
+        "Cluster": 1,
+        "Avg_Yield": 7.2,
+        "Min_Yield": 2.5,
+        "Max_Yield": 13.5,
+        "Samples": 45000,
+        "Rainfall_mm": 700,
+        "Temperature_Celsius": 30.5,
+        "Days_to_Harvest": 250,
+        "Region": "West",
+        "Soil_Type": "Sandy",
+        "Fertilizer_Used": true,
+        "Irrigation_Used": true,
+        "Weather_Condition": "Dry"
+      },
+      {
+        "Cluster": 2,
+        "Avg_Yield": 6.5,
+        "Min_Yield": 2.0,
+        "Max_Yield": 12.0,
+        "Samples": 43000,
+        "Rainfall_mm": 650,
+        "Temperature_Celsius": 31.0,
+        "Days_to_Harvest": 260,
+        "Region": "East",
+        "Soil_Type": "Clay",
+        "Fertilizer_Used": false,
+        "Irrigation_Used": false,
+        "Weather_Condition": "Humid"
+      }
+    ]
+  },
+  "grapes": {
+    "optimal_clusters": 2,
+    "clusters": [
+      {
+        "Cluster": 0,
+        "Avg_Yield": 10.0,
+        "Min_Yield": 4.0,
+        "Max_Yield": 18.0,
+        "Samples": 30000,
+        "Rainfall_mm": 500,
+        "Temperature_Celsius": 25.0,
+        "Days_to_Harvest": 150,
+        "Region": "West",
+        "Soil_Type": "Loam",
+        "Fertilizer_Used": true,
+        "Irrigation_Used": true,
+        "Weather_Condition": "Sunny"
+      },
+      {
+        "Cluster": 1,
+        "Avg_Yield": 9.0,
+        "Min_Yield": 3.5,
+        "Max_Yield": 16.0,
+        "Samples": 28000,
+        "Rainfall_mm": 450,
+        "Temperature_Celsius": 26.5,
+        "Days_to_Harvest": 155,
+        "Region": "South",
+        "Soil_Type": "Sandy",
+        "Fertilizer_Used": false,
+        "Irrigation_Used": true,
+        "Weather_Condition": "Dry"
+      }
+    ]
+  },
+  "watermelon": {
+    "optimal_clusters": 2,
+    "clusters": [
+      {
+        "Cluster": 0,
+        "Avg_Yield": 25.0,
+        "Min_Yield": 10.0,
+        "Max_Yield": 40.0,
+        "Samples": 35000,
+        "Rainfall_mm": 600,
+        "Temperature_Celsius": 30.0,
+        "Days_to_Harvest": 90,
+        "Region": "North",
+        "Soil_Type": "Sandy",
+        "Fertilizer_Used": true,
+        "Irrigation_Used": true,
+        "Weather_Condition": "Sunny"
+      },
+      {
+        "Cluster": 1,
+        "Avg_Yield": 22.0,
+        "Min_Yield": 8.0,
+        "Max_Yield": 35.0,
+        "Samples": 33000,
+        "Rainfall_mm": 550,
+        "Temperature_Celsius": 31.5,
+        "Days_to_Harvest": 95,
+        "Region": "Central",
+        "Soil_Type": "Loam",
+        "Fertilizer_Used": false,
+        "Irrigation_Used": true,
+        "Weather_Condition": "Dry"
+      }
+    ]
+  },
+  "muskmelon": {
+    "optimal_clusters": 2,
+    "clusters": [
+      {
+        "Cluster": 0,
+        "Avg_Yield": 20.0,
+        "Min_Yield": 8.0,
+        "Max_Yield": 35.0,
+        "Samples": 32000,
+        "Rainfall_mm": 550,
+        "Temperature_Celsius": 29.0,
+        "Days_to_Harvest": 85,
+        "Region": "North",
+        "Soil_Type": "Sandy",
+        "Fertilizer_Used": true,
+        "Irrigation_Used": true,
+        "Weather_Condition": "Sunny"
+      },
+      {
+        "Cluster": 1,
+        "Avg_Yield": 18.0,
+        "Min_Yield": 7.0,
+        "Max_Yield": 30.0,
+        "Samples": 30000,
+        "Rainfall_mm": 500,
+        "Temperature_Celsius": 30.5,
+        "Days_to_Harvest": 90,
+        "Region": "West",
+        "Soil_Type": "Loam",
+        "Fertilizer_Used": false,
+        "Irrigation_Used": true,
+        "Weather_Condition": "Dry"
+      }
+    ]
+  },
+  "apple": {
+    "optimal_clusters": 2,
+    "clusters": [
+      {
+        "Cluster": 0,
+        "Avg_Yield": 12.0,
+        "Min_Yield": 5.0,
+        "Max_Yield": 20.0,
+        "Samples": 20000,
+        "Rainfall_mm": 800,
+        "Temperature_Celsius": 15.0,
+        "Days_to_Harvest": 200,
+        "Region": "North",
+        "Soil_Type": "Loam",
+        "Fertilizer_Used": true,
+        "Irrigation_Used": true,
+        "Weather_Condition": "Cloudy"
+      },
+      {
+        "Cluster": 1,
+        "Avg_Yield": 10.5,
+        "Min_Yield": 4.0,
+        "Max_Yield": 18.0,
+        "Samples": 18000,
+        "Rainfall_mm": 700,
+        "Temperature_Celsius": 16.5,
+        "Days_to_Harvest": 210,
+        "Region": "North",
+        "Soil_Type": "Silt",
+        "Fertilizer_Used": false,
+        "Irrigation_Used": true,
+        "Weather_Condition": "Cloudy"
+      }
+    ]
+  },
+  "orange": {
+    "optimal_clusters": 2,
+    "clusters": [
+      {
+        "Cluster": 0,
+        "Avg_Yield": 15.0,
+        "Min_Yield": 6.0,
+        "Max_Yield": 25.0,
+        "Samples": 27000,
+        "Rainfall_mm": 900,
+        "Temperature_Celsius": 25.0,
+        "Days_to_Harvest": 240,
+        "Region": "South",
+        "Soil_Type": "Loam",
+        "Fertilizer_Used": true,
+        "Irrigation_Used": true,
+        "Weather_Condition": "Sunny"
+      },
+      {
+        "Cluster": 1,
+        "Avg_Yield": 13.5,
+        "Min_Yield": 5.0,
+        "Max_Yield": 22.0,
+        "Samples": 25000,
+        "Rainfall_mm": 800,
+        "Temperature_Celsius": 26.5,
+        "Days_to_Harvest": 250,
+        "Region": "Central",
+        "Soil_Type": "Sandy",
+        "Fertilizer_Used": false,
+        "Irrigation_Used": true,
+        "Weather_Condition": "Dry"
+      }
+    ]
+  },
+  "papaya": {
+    "optimal_clusters": 2,
+    "clusters": [
+      {
+        "Cluster": 0,
+        "Avg_Yield": 50.0,
+        "Min_Yield": 20.0,
+        "Max_Yield": 80.0,
+        "Samples": 40000,
+        "Rainfall_mm": 1500,
+        "Temperature_Celsius": 28.0,
+        "Days_to_Harvest": 270,
+        "Region": "South",
+        "Soil_Type": "Loam",
+        "Fertilizer_Used": true,
+        "Irrigation_Used": true,
+        "Weather_Condition": "Humid"
+      },
+      {
+        "Cluster": 1,
+        "Avg_Yield": 45.0,
+        "Min_Yield": 15.0,
+        "Max_Yield": 75.0,
+        "Samples": 38000,
+        "Rainfall_mm": 1400,
+        "Temperature_Celsius": 29.5,
+        "Days_to_Harvest": 280,
+        "Region": "East",
+        "Soil_Type": "Clay",
+        "Fertilizer_Used": false,
+        "Irrigation_Used": true,
+        "Weather_Condition": "Rainy"
+      }
+    ]
+  },
+  "coconut": {
+    "optimal_clusters": 3,
+    "clusters": [
+      {
+        "Cluster": 0,
+        "Avg_Yield": 80.0,
+        "Min_Yield": 30.0,
+        "Max_Yield": 120.0,
+        "Samples": 60000,
+        "Rainfall_mm": 2000,
+        "Temperature_Celsius": 27.0,
+        "Days_to_Harvest": 365,
+        "Region": "South",
+        "Soil_Type": "Sandy",
+        "Fertilizer_Used": true,
+        "Irrigation_Used": true,
+        "Weather_Condition": "Humid"
+      },
+      {
+        "Cluster": 1,
+        "Avg_Yield": 70.0,
+        "Min_Yield": 25.0,
+        "Max_Yield": 110.0,
+        "Samples": 57000,
+        "Rainfall_mm": 1800,
+        "Temperature_Celsius": 28.5,
+        "Days_to_Harvest": 365,
+        "Region": "South",
+        "Soil_Type": "Loam",
+        "Fertilizer_Used": true,
+        "Irrigation_Used": true,
+        "Weather_Condition": "Rainy"
+      },
+      {
+        "Cluster": 2,
+        "Avg_Yield": 60.0,
+        "Min_Yield": 20.0,
+        "Max_Yield": 100.0,
+        "Samples": 55000,
+        "Rainfall_mm": 1600,
+        "Temperature_Celsius": 29.0,
+        "Days_to_Harvest": 365,
+        "Region": "East",
+        "Soil_Type": "Clay",
+        "Fertilizer_Used": false,
+        "Irrigation_Used": false,
+        "Weather_Condition": "Humid"
+      }
+    ]
+  },
+  "cotton": {
+    "optimal_clusters": 3,
+    "clusters": [
+      {
+        "Cluster": 0,
+        "Avg_Yield": 2.5,
+        "Min_Yield": 0.8,
+        "Max_Yield": 4.5,
+        "Samples": 75000,
+        "Rainfall_mm": 600,
+        "Temperature_Celsius": 30.0,
+        "Days_to_Harvest": 180,
+        "Region": "West",
+        "Soil_Type": "Clay",
+        "Fertilizer_Used": true,
+        "Irrigation_Used": true,
+        "Weather_Condition": "Sunny"
+      },
+      {
+        "Cluster": 1,
+        "Avg_Yield": 2.2,
+        "Min_Yield": 0.6,
+        "Max_Yield": 4.0,
+        "Samples": 72000,
+        "Rainfall_mm": 550,
+        "Temperature_Celsius": 31.5,
+        "Days_to_Harvest": 185,
+        "Region": "South",
+        "Soil_Type": "Loam",
+        "Fertilizer_Used": true,
+        "Irrigation_Used": true,
+        "Weather_Condition": "Dry"
+      },
+      {
+        "Cluster": 2,
+        "Avg_Yield": 1.9,
+        "Min_Yield": 0.5,
+        "Max_Yield": 3.5,
+        "Samples": 70000,
+        "Rainfall_mm": 500,
+        "Temperature_Celsius": 32.0,
+        "Days_to_Harvest": 190,
+        "Region": "Central",
+        "Soil_Type": "Sandy",
+        "Fertilizer_Used": false,
+        "Irrigation_Used": false,
+        "Weather_Condition": "Dry"
+      }
+    ]
+  },
+  "jute": {
+    "optimal_clusters": 2,
+    "clusters": [
+      {
+        "Cluster": 0,
+        "Avg_Yield": 2.8,
+        "Min_Yield": 1.0,
+        "Max_Yield": 4.5,
+        "Samples": 50000,
+        "Rainfall_mm": 1500,
+        "Temperature_Celsius": 28.0,
+        "Days_to_Harvest": 120,
+        "Region": "East",
+        "Soil_Type": "Silt",
+        "Fertilizer_Used": true,
+        "Irrigation_Used": true,
+        "Weather_Condition": "Rainy"
+      },
+      {
+        "Cluster": 1,
+        "Avg_Yield": 2.5,
+        "Min_Yield": 0.8,
+        "Max_Yield": 4.0,
+        "Samples": 48000,
+        "Rainfall_mm": 1400,
+        "Temperature_Celsius": 29.5,
+        "Days_to_Harvest": 125,
+        "Region": "East",
+        "Soil_Type": "Clay",
+        "Fertilizer_Used": false,
+        "Irrigation_Used": false,
+        "Weather_Condition": "Humid"
+      }
+    ]
+  },
+  "coffee": {
+    "optimal_clusters": 2,
+    "clusters": [
+      {
+        "Cluster": 0,
+        "Avg_Yield": 1.2,
+        "Min_Yield": 0.5,
+        "Max_Yield": 2.0,
+        "Samples": 30000,
+        "Rainfall_mm": 1800,
+        "Temperature_Celsius": 22.0,
+        "Days_to_Harvest": 365,
+        "Region": "South",
+        "Soil_Type": "Loam",
+        "Fertilizer_Used": true,
+        "Irrigation_Used": true,
+        "Weather_Condition": "Humid"
+      },
+      {
+        "Cluster": 1,
+        "Avg_Yield": 1.0,
+        "Min_Yield": 0.4,
+        "Max_Yield": 1.8,
+        "Samples": 28000,
+        "Rainfall_mm": 1600,
+        "Temperature_Celsius": 23.5,
+        "Days_to_Harvest": 365,
+        "Region": "South",
+        "Soil_Type": "Clay",
+        "Fertilizer_Used": false,
+        "Irrigation_Used": false,
+        "Weather_Condition": "Rainy"
+      }
+    ]
+  }
+}
