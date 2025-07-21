@@ -1,0 +1,4 @@
+State,District,n_High,n_Medium,n_Low,p_High,p_Medium,p_Low,k_High,k_Medium,k_Low,OC_High,OC_Medium,OC_Low,pH_Alkaline,pH_Acidic,pH_Neutral,EC_NonSaline,EC_Saline,S_Sufficient,S_Deficient,Fe_Sufficient,Fe_Deficient,Zn_Sufficient,Zn_Deficient,Cu_Sufficient,Cu_Deficient,B_Sufficient,B_Deficient,Mn_Sufficient,Mn_Deficient
+Dhalai,Dhalai,0,0,55,27,27,1,0,35,20,20,26,9,0,54,1,55,0,5,50,55,0,16,39,54,1,21,34,55,0
+North Tripura,North Tripura,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Sepahijala,Sepahijala,0,24,38,28,32,2,0,57,5,8,16,38,0,55,7,62,0,56,6,62,0,51,11,62,0,51,11,62,0
